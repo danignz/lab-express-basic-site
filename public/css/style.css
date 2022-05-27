@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(233, 233, 233);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+h1,
+img {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+p {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+a {
+  color: rgb(6, 6, 146);
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+#homepage,
+#about,
+#works,
+#photogallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#works {
+  align-items: stretch;
+  margin-left: 40px;
+}
